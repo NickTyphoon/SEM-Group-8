@@ -1,8 +1,4 @@
 # SEM-Group-8 2024
-2024 group 8 SEM \
-
-
-Link to Git repository: ***************
 
 Link to working Google document: https://docs.google.com/document/d/1FqxvGshvI8xaEuM2tKyJtSWxnhNM2SReF5ahSxHTDW0/edit?usp=sharing
 
