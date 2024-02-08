@@ -1,9 +1,6 @@
-# SEM-Group-8
+# SEM-Group-8 2024
 2024 group 8 SEM \
-adam \
-shreya \
-Nick \
-Trijit
+
 
 Link to Git repository: ***************
 
@@ -21,3 +18,15 @@ Link to Trello board: **************
 | Junpeng Zhang | psxjz19@nottingham.ac.uk  | 20560932 |
 | Rao Fu | rao1640.jz@gmail.com psxrf1@nottingham.ac.uk |20555548 |
 | Shreya Basa | shreyabasa19@gmail.com psxsb16@nottingham.ac.uk  | 20593453 |
+
+# Week 1
+
+[Documentation](/WEEK%201/Doc_1.md)
+
+[Meeting Notes and Assessment Criteria](/WEEK%201/Meeting_Notes_1.md)
+
+# Week 2
+
+[Documentation](/WEEK%202/Doc_2.md)
+
+[Meeting Notes and Assessment Criteria](/WEEK%202/Meeting_Notes_2.md)
