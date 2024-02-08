@@ -2,7 +2,7 @@
 
 ## Story Board
 
-[![A mushroom-head robot](/assets/images/codey.jpg 'Codey the Codecademy mascot')](https://codecademy.com)
+![Low Fid](/Res/MVP%20Storyboard.jpg )
 
 RAO 
 - user stories
