@@ -32,3 +32,7 @@ whos playing what role
 
 ## Initial Test Plan
 
+| ID | Name | Description |
+| --- |----- | ----- |
+| 1 | Finish State | the user can finish a section of code |
+
