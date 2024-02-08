@@ -2,7 +2,7 @@
 2024 group 8 SEM \
 adam \
 shreya \
-Nick
+Nick \
 Trijit
 
 Link to Git repository: ***************
