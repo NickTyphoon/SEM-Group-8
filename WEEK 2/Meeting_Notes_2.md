@@ -31,3 +31,5 @@ Nick
 ## Meeting Notes 13.02.2024
 
 ## Assessment Criteria
+
+![Low Fid](/Res/week2_Assesment_criteria.jpg )
