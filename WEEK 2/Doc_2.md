@@ -4,7 +4,33 @@ whos playing what role
 
 ## Specifications
 
+1.1 The game design must be age-appropriate for the players; it should be engaging and not contain violent elements.
+1.2 The players should find the instructions of the game easy to read and understand.
+
+2.1 The coins will be placed on platforms, which the user needs to jump onto to collect.
+2.2 The game instructions should inform the users how to collect the coins: WASD to move up, down, left and right.
+2.3 The system should keep track of the number of coins collected by the player.
+2.4 The number of coins collected should be visible to the player.
+
+3.1 A pop-up screen should display 10 fragments of code after the player has collected 10 coins.
+3.2 The system should allow the players to drag the code fragments into different positions to arrange them into a sequence.
+
+4.1 The background of the pop-up screen will turn red when the sequence of code formed by the user is incorrect.
+4.2 The background of the pop-up screen will turn green when the sequence of code formed by the user is correct.
+
+5.1 The system should unlock a new power-up and the pop-up screen should display a success message when the code fragments are arranged correctly.
+5.2 The pop-up screen should indicate the name of the power-up. 
+5.3 The pop-up screen should indicate the controls for the power-up.
+5.4 The game takes the user to the next level, where they must collect 10 coins again.
+5.5 The unlocked power-ups should be visible to the user while playing the game.
+
 ## Requirements
+
+1. The target users are children aged 11-14 years.
+2. The players need to collect fragments of code, represented by coins.
+3. The players should learn how to arrange the collected code fragments into a logical line of code.
+4. The players should receive feedback about the formed sequence of code.
+5. The players should unlock power-ups and advance to succeeding levels.
 
 ## User Stories
  - Overall user story
