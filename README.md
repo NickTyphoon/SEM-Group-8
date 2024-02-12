@@ -15,13 +15,13 @@ Link to Trello board: **************
 | Rao Fu | rao1640.jz@gmail.com psxrf1@nottingham.ac.uk |20555548 |
 | Shreya Basa | shreyabasa19@gmail.com psxsb16@nottingham.ac.uk  | 20593453 |
 
-## Team Roles (check there are right)
+## Team Roles
 Adam - lead graphic design and animation \
 Trijit - git admin and assistant games design \
-Shreya - team admin (taking meeting notes etc) and assiatant graphics\
+Shreya - team admin (taking meeting notes etc) and assistant graphics\
 Nick - lead and games tech design\
 Peter - games researcher and README manager\
-Rao - animations assiatant
+Rao - animations assistant
 
 # Week 1
 
