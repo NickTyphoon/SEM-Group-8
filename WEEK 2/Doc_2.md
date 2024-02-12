@@ -27,7 +27,7 @@ whos playing what role
    7）As a player, I want my character to have the ability to jump, so that I can better control the character's actions and reach additional platforms.
    
 ## Personas
- - Name: Mike
+ - Name: "Daniel"
  - Age: 12 years old (KS3:11-14)
  - Gender: Male
  - Occupation: Student
