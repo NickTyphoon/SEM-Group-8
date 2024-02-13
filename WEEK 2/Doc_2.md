@@ -101,3 +101,7 @@ Rao - animations assistant
 |6|Score Update| make sure the users score is updated when coins are collected|
 
 
+## Code
+
+
+
