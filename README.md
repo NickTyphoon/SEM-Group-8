@@ -16,12 +16,13 @@ Link to Trello board: **************
 | Shreya Basa | shreyabasa19@gmail.com psxsb16@nottingham.ac.uk  | 20593453 |
 
 ## Team Roles
-Adam - lead graphic design and animation, Implementer and Finisher \
-Trijit - git admin and assistant games design, Teamworker and Implementer \
-Shreya - team admin (taking meeting notes etc) and assistant graphics, Shaper and Team Worker\
-Nick - lead and games tech design, Coordinator and Shaper\
-Junpeng - games researcher and README manager\
-Rao - animations assistant, Coordinator and Shaper
+Adam - Implementer and Finisher; Implementer 
+Trijit - Teamworker and Implementer; Technical Lead
+Shreya - Shaper and Team Worker; Documentation
+Nick - Coordinator and Shaper; Project Manager
+Junpeng - Plant and Resource Investigator; Researcher
+Rao - Coordinator and Shaper; Testing
+
 
 # Week 1
 
