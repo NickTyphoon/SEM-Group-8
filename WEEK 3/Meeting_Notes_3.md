@@ -14,11 +14,11 @@
  - 
 
 
-# task breakdown
+# Task Breakdown
 
-pairs for sprint -
+Pairs for Sprint -
  - nick and trijit - TDD code
- - peter and rao - uploading existing project to git
+ - Peter and Rao - uploading existing project to git
 
- - shreya - code "code sorting" at game completion
- - adam - finish sprites and add to MVP code
+ - Shreya - code "code sorting" at game completion
+ - Adam - finish sprites and add to MVP code
