@@ -1,11 +1,11 @@
 # Goals and sprint plan
 
-Adam - lead graphic design and animation \
-Trijit - git admin and assistant games design \
-Shreya - team admin (taking meeting notes etc) and assistant graphics\
-Nick - lead and games tech design\
-Peter - games researcher and README manager\
-Rao - animations assistant
+Adam - Implementer and Finisher; Implementer \
+Trijit - Teamworker and Implementer; Technical Lead \
+Shreya - Shaper and Team Worker; Documentation \
+Nick - Coordinator and Shaper; Project Manager \
+Junpeng - Plant and Resource Investigator; Researcher \
+Rao - Coordinator and Shaper; Testing
 
 ## Specifications
 
