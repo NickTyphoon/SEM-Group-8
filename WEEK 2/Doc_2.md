@@ -78,6 +78,8 @@ Rao - animations assistant
 ![Low Fid](/Res/MVP%20Storyboard.jpg )
 
 ## High-Fidelity Storyboard
+https://youtu.be/mhrUNCodxbM?si=Xh98DgP55oM9ELMf
+
 
 ## Defined MVP (Minimum Viable Project): 
  - collect coins (pieces of code)
