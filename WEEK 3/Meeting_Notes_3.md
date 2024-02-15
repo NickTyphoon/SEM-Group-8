@@ -13,6 +13,12 @@
  - code test plan tests
  - 
 
+
+# task breakdown
+
 pairs for sprint -
-nick and trijit - TDD code
-peter and rao - uploading existing project to git
+ - nick and trijit - TDD code
+ - peter and rao - uploading existing project to git
+
+ - shreya - code "code sorting" at game completion
+ - adam - finish sprites and add to MVP code
