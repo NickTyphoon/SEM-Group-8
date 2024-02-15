@@ -20,7 +20,7 @@ Adam - lead graphic design and animation, Implementer and Finisher \
 Trijit - git admin and assistant games design, Teamworker and Implementer \
 Shreya - team admin (taking meeting notes etc) and assistant graphics, Shaper and Team Worker\
 Nick - lead and games tech design, Coordinator and Shaper\
-Peter - games researcher and README manager\
+Junpeng - games researcher and README manager\
 Rao - animations assistant, Coordinator and Shaper
 
 # Week 1
