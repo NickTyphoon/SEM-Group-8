@@ -71,8 +71,10 @@ Rao - animations assistant
 
 ## Use Case Diagram
 
+![Use Case Diagram](/Res/Use%20case%20diagram.png)
 ## Activity Diagram
 
+![Activity Diagram](/Res/activity%20diagram.PNG)
 ## Low-Fidelity Storyboard
 
 ![Low Fid](/Res/MVP%20Storyboard.jpg )
