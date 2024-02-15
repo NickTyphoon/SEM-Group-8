@@ -1,20 +1,157 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E1CE1FEE-67BE-6533-73AA-CC578BE80DCD}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+// player moving from side to side
+public class movement : MonoBehaviour
+{
+    private Rigidbody2D rb;
+    private BoxCollider2D coll;
+
+    [Header("move parameter")]
+    public float speed = 8f;
+    public float crouchSpeedDivisor = 3f;
+
+    [Header("Jump parameter ")]
+    public float jumpForce = 6.3f;
+    public float jumpHoldForce = 1.9f;
+    public float jumpHoldDuration = 0.1f;
+    public float crouchJumpBoost = 2.5f;
+
+    float jumpTime;
+
+    [Header("state")]
+    public bool isCrouch;
+    public bool isOnGround;
+    public bool isJump;
+
+    [Header("environment test")]
+    public LayerMask groundLayer;
+
+    float xVelocity;
+
+    //Buttons set
+    bool jumpPressed;
+    bool jumpHeld;
+    bool crouchHeld;
+
+    //Collider size
+    Vector2 colliderStandSize;
+    Vector2 colliderStandOffset;
+    Vector2 colliderCrouchSize;
+    Vector2 colliderCouchOffset;
+
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        coll = GetComponent<BoxCollider2D>();
+
+        colliderStandSize = coll.size;
+        colliderStandOffset = coll.offset;
+        colliderCrouchSize = new Vector2(coll.size.x, coll.size.y / 2f);
+        colliderCouchOffset = new Vector2(coll.offset.x, coll.offset.y / 2f);
+    }
+    void Update()
+    {
+        jumpPressed = Input.GetButtonDown("Jump");
+        jumpHeld = Input.GetButton("Jump");
+        crouchHeld = Input.GetButton("Crouch");
+
+    }
+
+    private void FixedUpdate()
+    {
+        physicsCheck();
+        GroundMovement();
+        MidAirMovement();
+    }
+
+    void physicsCheck()
+    {
+        if (coll.IsTouchingLayers(groundLayer))
+            isOnGround = true;
+        else isOnGround = false;
+        {
+            
+        }
+    }
+
+
+
+    void GroundMovement()
+    {
+
+        if (crouchHeld && !isCrouch && isOnGround)
+            Crouch();
+        else if (!crouchHeld && isCrouch)
+            StandUp();
+        else if (!isOnGround && isCrouch)
+            StandUp();
+       
+        xVelocity = Input.GetAxis("Horizontal");
+
+        if (isCrouch)
+            xVelocity /= crouchSpeedDivisor;
+
+        rb.velocity = new Vector2(xVelocity * speed, rb.velocity.y);
+        FilpDirction();
+    }
+
+    void MidAirMovement()
+    {
+     if (jumpPressed && isOnGround && !isJump)
+        {
+            if (jumpPressed && isOnGround)
+            {
+               
+                  StandUp();
+                  rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            
+            }
+
+            isOnGround = false;
+            isJump = true;
+
+            jumpTime = Time.time + jumpHoldDuration;
+
+
+            rb.AddForce(new Vector2(0f, jumpHoldForce), ForceMode2D.Impulse);
+        }
+
+      else if(isJump)
+        {
+            if (jumpHeld)
+                rb.AddForce(new Vector2(0f, jumpHoldForce), ForceMode2D.Impulse);
+            if (jumpTime < Time.time)
+                isJump = false;
+        }
+
+    }
+
+    //The image direction changes when the player moves left or right
+    void FilpDirction()
+    {
+        if (xVelocity < 0)
+            transform.localScale = new Vector2(1, 1);
+        else if (xVelocity > 0)
+            transform.localScale = new Vector2(-1, 1);
+    }
+
+    // Crouch
+    void Crouch()
+    {
+        isCrouch = true;
+        coll.size = colliderCrouchSize;
+        coll.offset = colliderCouchOffset;
+    }
+    
+    void StandUp()
+    {
+        isCrouch = false;
+        coll.size = colliderStandSize;
+        coll.offset = colliderStandOffset;
+    }
+}
+
