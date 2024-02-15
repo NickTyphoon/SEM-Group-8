@@ -4,6 +4,9 @@ Link to working Google document: https://docs.google.com/document/d/1FqxvGshvI8x
 
 Link to Trello board: **************
 
+# Weekly game project OneDrive share link 
+//Because some files in the project are too large to be uploaded to GitHub through git lfs, the weekly project package is temporarily uploaded to OneDrive to facilitate team members to work.
+week 2：https://1drv.ms/f/s!Ap3XJnV13ZtLnmJRTyEh5TZgEB4W?e=lNNQJ4
 
 
 | Name    | Email | Student ID |
