@@ -1,11 +1,36 @@
 # Goals and sprint plan
 
-Adam - Implementer and Finisher; Implementer \
-Trijit - Teamworker and Implementer; Technical Lead \
-Shreya - Shaper and Team Worker; Documentation \
-Nick - Coordinator and Shaper; Project Manager \
-Junpeng - Plant and Resource Investigator; Researcher \
-Rao - Coordinator and Shaper; Testing
+## Team Roles
+Adam \
+Personality types - Implementer and Finisher \
+Role - Implementer \
+Description - Turns ideas into actions and organises work that needs to be done. Values precision and notices fine details.
+
+Trijit \
+Personality types - Team Worker and Implementer \
+Role - Technical Lead \
+Description - Helping team members accomplish their individual tasks. Searches out errors and polishes work.
+
+Shreya \
+Personality types - Team Worker and Shaper \
+Role - Documentation \
+Description - Fosters collaboration and effective communication within the team. Ensures that documentation is well-structured.
+
+Nick \
+Personality types - Coordinator and Shaper \
+Role - Project Manager \
+Description - Delegating tasks, ensuring everyone is contributing, and maintaining harmony within the team. Goal-oriented and has a drive to overcome obstacles.
+
+Junpeng \
+Personality types - Plant and Resource Investigator \
+Role - Researcher \
+Description - Explores external opportunities, gathers information, and establishes connections that can benefit the team. Comes up with unique solutions and ideas.
+
+Rao \
+Personality types - Coordinator and Shaper \
+Role - Testing \
+Description - Ensures the team stays focused and works towards its objectives. Brings people together and facilitates effective communication. 
+
 
 ## Specifications
 
