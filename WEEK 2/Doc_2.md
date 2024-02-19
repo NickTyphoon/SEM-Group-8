@@ -117,6 +117,9 @@ https://youtu.be/mhrUNCodxbM?si=Xh98DgP55oM9ELMf
  - basic WASD movement (left,right,up,down(gravity))
  - the ability ot jump (to be able to reach teh additional platforms)
 
+(paragraph form)\
+In this educational game, users must collect up to 10 code pieces. The game environment consists of a main floor and two additional levels. Navigation is facilitated using the standard WASD keys for directional control, including jumping. Once code pieces are gathered, a prompt appears, prompting users to arrange them correctly. Iterative code reordering is permitted until the accurate sequence is achieved, with the system providing feedback upon successful completion. This interactive experience seamlessly integrates coding exploration with platform navigation across diverse levels.
+
 
 ## Initial Test Plan
 
