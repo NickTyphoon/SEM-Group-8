@@ -35,3 +35,17 @@ Adam - 5, Nick - 3, Trijit - 3, Shreya - 5, Peter - 5, Rao - 3 \
 **Group** - 5  
 **Date** - 19/02 
 
+## Retrospective
+*_What went wrong?_* 
+- Realised that we can’t add visual assets to MVP  
+  Reason: Code is not put together yet \
+  Solution: Moved to backlog for next sprint. Will push a project first and then combine code scripts from Rao and Shreya 
+- Can’t do testing yet  
+  Reason: All members not on the same level of coding. \
+  Solution: Moved to backlog for next sprint. Everyone now getting up to speed with coding, so tests can be run in next sprint. 
+
+*_What went right?_*   
+- Expanded MVP and personality type descriptions
+- Paired programming for drag and drop and start menu
+- Created character sprites
+- Documented planning through planning poker and Gantt chart
