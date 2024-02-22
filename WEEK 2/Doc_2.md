@@ -1,11 +1,36 @@
 # Goals and sprint plan
 
-Adam - lead graphic design and animation \
-Trijit - git admin and assistant games design \
-Shreya - team admin (taking meeting notes etc) and assistant graphics\
-Nick - lead and games tech design\
-Peter - games researcher and README manager\
-Rao - animations assistant
+## Team Roles
+Adam \
+Personality types - Implementer and Finisher \
+Role - Implementer \
+Description - Turns ideas into actions and organises work that needs to be done. Values precision and notices fine details.
+
+Trijit \
+Personality types - Team Worker and Implementer \
+Role - Technical Lead \
+Description - Helping team members accomplish their individual tasks. Searches out errors and polishes work.
+
+Shreya \
+Personality types - Team Worker and Shaper \
+Role - Documentation \
+Description - Fosters collaboration and effective communication within the team. Ensures that documentation is well-structured.
+
+Nick \
+Personality types - Coordinator and Shaper \
+Role - Project Manager \
+Description - Delegating tasks, ensuring everyone is contributing, and maintaining harmony within the team. Goal-oriented and has a drive to overcome obstacles.
+
+Junpeng \
+Personality types - Plant and Resource Investigator \
+Role - Researcher \
+Description - Explores external opportunities, gathers information, and establishes connections that can benefit the team. Comes up with unique solutions and ideas.
+
+Rao \
+Personality types - Coordinator and Shaper \
+Role - Testing \
+Description - Ensures the team stays focused and works towards its objectives. Brings people together and facilitates effective communication. 
+
 
 ## Specifications
 
@@ -91,6 +116,9 @@ https://youtu.be/mhrUNCodxbM?si=Xh98DgP55oM9ELMf
  - basic platformer, main floor and 2 additional floors the user cna jump to
  - basic WASD movement (left,right,up,down(gravity))
  - the ability ot jump (to be able to reach teh additional platforms)
+
+(paragraph form)\
+In this educational game, users must collect up to 10 code pieces. The game environment consists of a main floor and two additional levels. Navigation is facilitated using the standard WASD keys for directional control, including jumping. Once code pieces are gathered, a prompt appears, prompting users to arrange them correctly. Iterative code reordering is permitted until the accurate sequence is achieved, with the system providing feedback upon successful completion. This interactive experience seamlessly integrates coding exploration with platform navigation across diverse levels.
 
 
 ## Initial Test Plan
