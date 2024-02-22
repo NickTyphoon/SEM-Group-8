@@ -1,3 +1,7 @@
+## Gantt Chart
+
+![gantt chart](https://github.com/NickTyphoon/SEM-Group-8/assets/100342481/001d5caf-165f-4d46-a3c0-d0b249ab5739)
+
 ## Planning Poker Decisions
 
 **1. Retrospective:**
