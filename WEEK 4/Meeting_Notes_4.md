@@ -1,4 +1,4 @@
-## Meeting Notes 15.02.2024
+## Meeting Notes
 
 
 
@@ -6,7 +6,7 @@
 
 
 
-## Meeting Notes (20.02.24)
+## Meeting Notes 
 
 
 ## Task Breakdown
