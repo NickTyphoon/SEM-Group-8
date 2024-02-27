@@ -1,9 +1,9 @@
-refactoring goals 
+## Refactoring Goals 
  - [ ] m_ for member variables
  - [ ] reformatting code
- - [ ] code efficeincy
+ - [ ] code efficiency
  - [ ] self documenting variables
  - [ ] coding conventions
- - [ ] refactor large fucntions
- - [ ] make duplicate code in funtions
+ - [ ] refactor large functions
+ - [ ] make duplicate code in functions
 
