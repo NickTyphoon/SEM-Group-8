@@ -1,5 +1,5 @@
 refactoring goals 
- - [ ]m_ for member variables
+ - [ ] m_ for member variables
  - [ ]reformatting code
  - [ ]code efficeincy
  - [ ]self documenting variables
