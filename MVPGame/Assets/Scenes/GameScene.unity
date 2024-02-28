@@ -338,9 +338,21 @@ PrefabInstance:
       value: Coin 8
       objectReference: {fileID: 0}
     - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.x
+      value: 4.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.y
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c66dc27b6613baa418537cb6555c4776, type: 3}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3143930505710387736, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -734,9 +746,21 @@ PrefabInstance:
       value: Coin 7
       objectReference: {fileID: 0}
     - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.x
+      value: 4.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.y
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c66dc27b6613baa418537cb6555c4776, type: 3}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3143930505710387736, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -904,9 +928,21 @@ PrefabInstance:
       value: Coin 9
       objectReference: {fileID: 0}
     - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.x
+      value: 4.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.y
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c66dc27b6613baa418537cb6555c4776, type: 3}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3143930505710387736, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -973,9 +1009,21 @@ PrefabInstance:
       value: Coin 6
       objectReference: {fileID: 0}
     - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.x
+      value: 4.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.y
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c66dc27b6613baa418537cb6555c4776, type: 3}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3143930505710387736, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -1501,9 +1549,21 @@ PrefabInstance:
       value: Coin 2
       objectReference: {fileID: 0}
     - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.x
+      value: 4.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.y
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c66dc27b6613baa418537cb6555c4776, type: 3}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3143930505710387736, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -2625,9 +2685,21 @@ PrefabInstance:
       value: Coin 5
       objectReference: {fileID: 0}
     - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.x
+      value: 4.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.y
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c66dc27b6613baa418537cb6555c4776, type: 3}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3143930505710387736, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -2694,9 +2766,21 @@ PrefabInstance:
       value: Coin 3
       objectReference: {fileID: 0}
     - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.x
+      value: 4.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.y
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c66dc27b6613baa418537cb6555c4776, type: 3}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3143930505710387736, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -3135,9 +3219,21 @@ PrefabInstance:
       value: Coin 4
       objectReference: {fileID: 0}
     - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.x
+      value: 4.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.y
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c66dc27b6613baa418537cb6555c4776, type: 3}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3143930505710387736, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2
@@ -3209,9 +3305,21 @@ PrefabInstance:
       value: Coin 10
       objectReference: {fileID: 0}
     - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.x
+      value: 4.77
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Size.y
+      value: 4.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c66dc27b6613baa418537cb6555c4776, type: 3}
+    - target: {fileID: 1678582596441937909, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3143930505710387736, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2

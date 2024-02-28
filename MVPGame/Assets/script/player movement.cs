@@ -44,6 +44,6 @@ public class movement : MonoBehaviour{
     }
 
     void UpdateScoreText(){
-            GameObject.Find("Score").GetComponent<Text>().text = coinCount.ToString();
+            GameObject.Find("Number (1)").GetComponent<Text>().text = coinCount.ToString();
     }
 }
