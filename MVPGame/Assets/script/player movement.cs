@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 // player moving from side to side
 public class movement : MonoBehaviour{
@@ -40,6 +41,10 @@ public class movement : MonoBehaviour{
             coinCount++;
             UpdateScoreText();
             Destroy(collision.gameObject);
+
+            if (coinCount == 10){
+                SceneManager.LoadSceneAsync("EndScreen");
+            }
         }
     }
 
