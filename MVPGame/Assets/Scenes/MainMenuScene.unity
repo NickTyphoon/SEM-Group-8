@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 290281682}
   m_Layer: 5
   m_Name: Quit
-  m_TagString: Untagged
+  m_TagString: Quit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -374,7 +374,7 @@ GameObject:
   - component: {fileID: 703607225}
   m_Layer: 5
   m_Name: Options
-  m_TagString: Untagged
+  m_TagString: Options
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -984,7 +984,7 @@ GameObject:
   - component: {fileID: 2067399454}
   m_Layer: 5
   m_Name: Play
-  m_TagString: Untagged
+  m_TagString: Play
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
