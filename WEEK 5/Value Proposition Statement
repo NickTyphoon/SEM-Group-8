@@ -1,14 +1,8 @@
+for (your target customer)
+who (statement of need or opportunity)
+our (product/service name)
+is (product category/description)
+that (statement of benefit)
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-
-| Name    | Email | Student ID |
-| -------- | ------- | ------- |
-| For  | nickmethley@hotmail.co.uk paynm11@nottingham.ac.uk    |20392381 |
-| Who | sahatrijit123@gmail.com psyts15@nottingham.ac.uk  | 20385480 |
-| Our | adamajarvis98@gmail.com psxaj4@nottingham.ac.uk  | 20613246 |
-| Is | psxjz19@nottingham.ac.uk  | 20560932 |
-| That | rao1640.jz@gmail.com psxrf1@nottingham.ac.uk |20555548 |
+*For* children aged 11-14 *who* attend school and/or want to learn the fundamental structure of programming,
+*our* game CodeLearn *is* a passively educational game *that* provides a fun way to learn how programming is structured.
