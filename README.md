@@ -6,11 +6,11 @@ Link to Trello board: **************
 
 **Value Proposition Statement**
 
-| **For** | --- |
-| **Who** | --- |
-| **Our** | --- |
-| **Is** | --- |
-| **That** | --- |
+| **For** | ggg |
+| **Who** | ggg |
+| **Our** | ggg |
+| **Is** | ggg |
+| **That** | ggg |
 
 
 
