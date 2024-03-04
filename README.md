@@ -4,16 +4,6 @@ Link to working Google document: https://docs.google.com/document/d/1FqxvGshvI8x
 
 Link to Trello board: **************
 
-**Value Proposition Statement**
-
-| **For** | ggg |
-| **Who** | ggg |
-| **Our** | ggg |
-| **Is** | ggg |
-| **That** | ggg |
-
-
-
 | Name    | Email | Student ID |
 | -------- | ------- | ------- |
 | Nick Methley  | nickmethley@hotmail.co.uk paynm11@nottingham.ac.uk    |20392381 |
