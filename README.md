@@ -4,7 +4,13 @@ Link to working Google document: https://docs.google.com/document/d/1FqxvGshvI8x
 
 Link to Trello board: **************
 
+**Value Proposition Statement**
 
+| **For** | sahatrijit123@gmail.com psyts15@nottingham.ac.uk
+| **Who** | adamajarvis98@gmail.com psxaj4@nottingham.ac.uk
+| **Our** | psxjz19@nottingham.ac.uk
+| **Is** | rao1640.jz@gmail.com psxrf1@nottingham.ac.uk
+| **That** | shreyabasa19@gmail.com psxsb16@nottingham.ac.uk
 
 
 
