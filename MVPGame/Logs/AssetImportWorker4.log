@@ -917,3 +917,263 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 602.184503 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1313586f0e496e029a68470d35f40b15') in 0.071730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 256.067403 seconds.
+  path: Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab
+  artifactKey: Guid(d0b1ecf02cfc8d74eb616310a86c7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab using Guid(d0b1ecf02cfc8d74eb616310a86c7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a3a72f820c9409a937d0abf12844fa') in 0.023521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time since last request: 2.976303 seconds.
+  path: Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab
+  artifactKey: Guid(d0b1ecf02cfc8d74eb616310a86c7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab using Guid(d0b1ecf02cfc8d74eb616310a86c7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec27b76acc981ebb66176d5894329eee') in 0.008492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 109
+========================================================================
+Received Import Request.
+  Time since last request: 2.824592 seconds.
+  path: Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab
+  artifactKey: Guid(d0b1ecf02cfc8d74eb616310a86c7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab using Guid(d0b1ecf02cfc8d74eb616310a86c7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462a57706dac9d1118f3f4cd08d27521') in 0.008340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time since last request: 3.058069 seconds.
+  path: Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab
+  artifactKey: Guid(d0b1ecf02cfc8d74eb616310a86c7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab using Guid(d0b1ecf02cfc8d74eb616310a86c7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43f748b2b49c5ded8373acfb671e94e') in 0.008199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 1.993080 seconds.
+  path: Assets/Bandits - Pixel Art/Demo/HeavyBandit.prefab
+  artifactKey: Guid(3248535f6a2562c489a1223a75951ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Demo/HeavyBandit.prefab using Guid(3248535f6a2562c489a1223a75951ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7040e95283b748184c0f0e2294b54f') in 0.023705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 10.542247 seconds.
+  path: Assets/Bandits - Pixel Art/Sprites/HeavyBandit_0.asset
+  artifactKey: Guid(a9cd0e7a5c1c7e442a48ebb1ef0831f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Sprites/HeavyBandit_0.asset using Guid(a9cd0e7a5c1c7e442a48ebb1ef0831f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c5fb6d667714585d220af31936af0b') in 0.024961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 12.927244 seconds.
+  path: Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab
+  artifactKey: Guid(d0b1ecf02cfc8d74eb616310a86c7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bandits - Pixel Art/Environment/EnvironmentPalette_Bandits.prefab using Guid(d0b1ecf02cfc8d74eb616310a86c7be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e19fb17cec7316cd7d761a65deb36a2') in 0.017492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 102
+========================================================================
+Received Import Request.
+  Time since last request: 5.659325 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Atlas.spriteatlas
+  artifactKey: Guid(72ed2a5fe375d7e4bbecf74985d9ecab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Atlas.spriteatlas using Guid(72ed2a5fe375d7e4bbecf74985d9ecab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54239bf9d885f83b4af8d3ef1bd2237') in 0.002447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002833 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Background5.asset
+  artifactKey: Guid(1320de38bb0e7cf4fa7569ee572fa7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Background5.asset using Guid(1320de38bb0e7cf4fa7569ee572fa7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4ca4ddc227dac683b7d6182563ae94') in 0.012525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tree5.asset
+  artifactKey: Guid(7e71d415a3fa0eb4092d927bc82dcacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tree5.asset using Guid(7e71d415a3fa0eb4092d927bc82dcacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1188ce4ebc5058101dced9cc398f27bf') in 0.007237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x285b13000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.290 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.994 seconds
+Domain Reload Profiling: 1283ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (994ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (378ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (35.3 KB). Loaded Objects now: 4652.
+Memory consumption went from 273.9 MB to 273.9 MB.
+Total: 2.709041 ms (FindLiveObjects: 0.130084 ms CreateObjectMapping: 0.049125 ms MarkObjects: 2.476208 ms  DeleteObjects: 0.053000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 746.571844 seconds.
+  path: Assets/options_button.png
+  artifactKey: Guid(cfac4e7cf4dc24ae5aa767426c592100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/options_button.png using Guid(cfac4e7cf4dc24ae5aa767426c592100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba172d55bd5075e1de5e741a1ce84b41') in 0.079022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/quit_button.png
+  artifactKey: Guid(b415e3d9871ef4606b43df97e76042b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/quit_button.png using Guid(b415e3d9871ef4606b43df97e76042b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151593ec65cdeda8f1602219a474d320') in 0.006773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 54.798379 seconds.
+  path: Assets/Prefab/CoinObject.prefab
+  artifactKey: Guid(a0d60d2fa4730204c9d3169956ae8834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/CoinObject.prefab using Guid(a0d60d2fa4730204c9d3169956ae8834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b4a16f7aff837825368b7a0cbdadd2') in 0.005419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 13.228269 seconds.
+  path: Assets/TestS/TestS.asmdef
+  artifactKey: Guid(a47a6caaba4ec7047ac9cf742d6776ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TestS/TestS.asmdef using Guid(a47a6caaba4ec7047ac9cf742d6776ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feaad796b4d916fc1b6ace1e41a78cfe') in 0.000908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.438933 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(ce7da3a59330d5547a0e456e8ade133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(ce7da3a59330d5547a0e456e8ade133a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced312842ccbf16963a0b92e78d5e1b4') in 0.000754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x285c6b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.300 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.978 seconds
+Domain Reload Profiling: 1278ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (142ms)
+		LoadAssemblies (161ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (979ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4659.
+Memory consumption went from 280.5 MB to 280.4 MB.
+Total: 2.825125 ms (FindLiveObjects: 0.135166 ms CreateObjectMapping: 0.052458 ms MarkObjects: 2.591792 ms  DeleteObjects: 0.045125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
