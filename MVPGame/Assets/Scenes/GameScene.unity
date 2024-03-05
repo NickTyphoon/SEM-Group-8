@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2082666040}
     m_Modifications:
+    - target: {fileID: -6088038153992699028, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 978586017457210610, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Name
       value: Coin 8
@@ -537,6 +541,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2082666040}
     m_Modifications:
+    - target: {fileID: -6088038153992699028, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 978586017457210610, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Name
       value: Coin 7
@@ -638,6 +646,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2082666040}
     m_Modifications:
+    - target: {fileID: -6088038153992699028, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 978586017457210610, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Name
       value: Coin 1
@@ -727,6 +739,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2082666040}
     m_Modifications:
+    - target: {fileID: -6088038153992699028, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 978586017457210610, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Name
       value: Coin 9
@@ -808,6 +824,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2082666040}
     m_Modifications:
+    - target: {fileID: -6088038153992699028, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 978586017457210610, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Name
       value: Coin 6
@@ -1588,6 +1608,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2082666040}
     m_Modifications:
+    - target: {fileID: -6088038153992699028, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 978586017457210610, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Name
       value: Coin 2
@@ -2620,6 +2644,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2082666040}
     m_Modifications:
+    - target: {fileID: -6088038153992699028, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 978586017457210610, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Name
       value: Coin 5
@@ -2701,6 +2729,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2082666040}
     m_Modifications:
+    - target: {fileID: -6088038153992699028, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 978586017457210610, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Name
       value: Coin 3
@@ -2936,6 +2968,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2082666040}
     m_Modifications:
+    - target: {fileID: -6088038153992699028, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 978586017457210610, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Name
       value: Coin 4
@@ -3022,6 +3058,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2082666040}
     m_Modifications:
+    - target: {fileID: -6088038153992699028, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 978586017457210610, guid: a0d60d2fa4730204c9d3169956ae8834, type: 3}
       propertyPath: m_Name
       value: Coin 10
