@@ -4,6 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 /// <summary>
 /// Handles the drop behavior for UI elements, implementing the IDropHandler interface.
 /// </summary>
@@ -18,6 +21,8 @@ public class Slot : MonoBehaviour, IDropHandler{
 
     //Event to notify CSM when slot filled
     public event Action onSlotFilled;
+
+
 
     public void OnDrop(PointerEventData eventData){
         
@@ -50,5 +55,21 @@ public class Slot : MonoBehaviour, IDropHandler{
             //Trigger the onSlotFilled event
             onSlotFilled?.Invoke();
         }
+    }
+
+    void Start()
+    {
+        // Access the score using PlayerPrefs
+        int finalScore = PlayerPrefs.GetInt("FinalScore", 0); // Default value of 0 if key doesn't exist
+
+        // Update UI or perform actions based on the retrieved score (e.g., display score, adjust difficulty)
+        // Text scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
+
+        // scoreText = ScoreText.text = "Final Score: " + finalScore;
+
+
+
+        GameObject.Find("ScoreText").GetComponent<Text>().text = "Final Score: " + finalScore;
+        
     }
 }

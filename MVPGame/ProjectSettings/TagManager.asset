@@ -8,6 +8,9 @@ TagManager:
   - Options
   - Quit
   - CodeSlotManager
+  - coin
+  - EndScreenButton
+  - ScoreText
   layers:
   - Default
   - TransparentFX
