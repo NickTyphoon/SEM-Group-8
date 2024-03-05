@@ -433,7 +433,7 @@ GameObject:
   - component: {fileID: 963955370}
   - component: {fileID: 963955372}
   m_Layer: 0
-  m_Name: Slot
+  m_Name: Slot (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,6 +508,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d26017dfa48e3e47ae3c29b3e9e750d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFilled: 0
+  isFilledCorrectly: 0
 --- !u!1 &1012556987
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,6 +669,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d26017dfa48e3e47ae3c29b3e9e750d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFilled: 0
+  isFilledCorrectly: 0
 --- !u!114 &1194423520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -749,6 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8486e6abe7bf3849a4193a9e6325bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slots: []
 --- !u!1 &1448197785
 GameObject:
   m_ObjectHideFlags: 0
@@ -799,6 +804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d26017dfa48e3e47ae3c29b3e9e750d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFilled: 0
+  isFilledCorrectly: 0
 --- !u!114 &1448197788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -887,6 +894,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d26017dfa48e3e47ae3c29b3e9e750d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFilled: 0
+  isFilledCorrectly: 0
 --- !u!114 &1471512530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1109,7 +1118,7 @@ GameObject:
   - component: {fileID: 1726117558}
   - component: {fileID: 1726117559}
   m_Layer: 0
-  m_Name: CodeFragment
+  m_Name: CodeFragment (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
