@@ -243,7 +243,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 482.1479, y: -72.85748}
+  m_AnchoredPosition: {x: 512.1479, y: -82.85748}
   m_SizeDelta: {x: 340.7993, y: 399.515}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &298104619
@@ -269,7 +269,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 100
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 267
@@ -468,9 +468,7 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 125e114080761a74f8425b66562c77e5, type: 2}
-  m_TileSpriteArray:
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  m_TileSpriteArray: []
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -1181,7 +1179,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.1}
   serializedVersion: 2
   m_Radius: 0.31
 --- !u!50 &770769606
@@ -1469,7 +1467,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 477.9196, y: -72.8575}
+  m_AnchoredPosition: {x: 437.9196, y: -82.8575}
   m_SizeDelta: {x: 966.8518, y: 399.515}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1092408184
@@ -1505,7 +1503,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "coins\uFF1A"
+  m_Text: "code coins\uFF1A"
 --- !u!222 &1092408185
 CanvasRenderer:
   m_ObjectHideFlags: 0
