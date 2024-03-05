@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 /// <summary>
 /// Handles the drop behavior for UI elements, implementing the IDropHandler interface.
 /// </summary>
-public class NewBehaviourScript : MonoBehaviour, IDropHandler
+public class Slot : MonoBehaviour, IDropHandler
 {
     /// <summary>
     /// Called when a UI element is dropped onto this object. Adjusts the anchored position of the dragged element.
