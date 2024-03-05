@@ -816,6 +816,7 @@ GameObject:
   - component: {fileID: 1283444299}
   - component: {fileID: 1283444298}
   - component: {fileID: 1283444297}
+  - component: {fileID: 1283444300}
   m_Layer: 5
   m_Name: GameButton
   m_TagString: Untagged
@@ -887,9 +888,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1012556987}
-        m_TargetAssemblyTypeName: movement, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 963955372}
+        m_TargetAssemblyTypeName: Slot, Assembly-CSharp
+        m_MethodName: GameButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -937,6 +938,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1283444295}
   m_CullTransparentMesh: 1
+--- !u!114 &1283444300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283444295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d26017dfa48e3e47ae3c29b3e9e750d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFilled: 0
+  isFilledCorrectly: 0
+  finalScore: 0
 --- !u!1 &1295012421
 GameObject:
   m_ObjectHideFlags: 0
