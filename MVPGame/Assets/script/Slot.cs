@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,6 +15,9 @@ public class Slot : MonoBehaviour, IDropHandler{
 
     public bool isFilled = false;
     public bool isFilledCorrectly = false;
+
+    //Event to notify CSM when slot filled
+    public event Action onSlotFilled;
 
     public void OnDrop(PointerEventData eventData){
         
@@ -40,8 +44,11 @@ public class Slot : MonoBehaviour, IDropHandler{
                 Debug.Log("Fragment in right slot");
             }else {
                 isFilledCorrectly = false;
-                Debug.Log("Fragment in right slot");
+                Debug.Log("Fragment in wrong slot");
             }
+
+            //Trigger the onSlotFilled event
+            onSlotFilled?.Invoke();
         }
     }
 }
