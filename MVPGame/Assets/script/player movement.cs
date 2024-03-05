@@ -81,9 +81,9 @@ public class movement : MonoBehaviour
 
     public void EndScreenButton()
     {
-        Debug.LogError("EndScreenButton not assigned in inspector!");
+        // Debug.LogError("EndScreenButton not assigned in inspector!");
         PlayerPrefs.SetInt("FinalScore", coinCount);
-        Debug.LogError("EndScreenButton not assigned in inspector!");
+        // Debug.LogError("EndScreenButton not assigned in inspector!");
         SceneManager.LoadSceneAsync("EndScreen");
     }
 }
