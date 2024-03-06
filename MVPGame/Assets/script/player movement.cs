@@ -24,7 +24,10 @@ public class movement : MonoBehaviour
     private void Update()
     {
         float moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+
+        // Apply clamping to restrict X-axis movement
+        float clampedX = Mathf.Clamp(transform.position.x + moveInput * moveSpeed * Time.deltaTime, -15f, 15f);
+        transform.position = new Vector3(clampedX, transform.position.y, transform.position.z);
 
         // Check if the player is pressing the jump key, is on the ground, and can jump
         if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && onGround && canJump)
