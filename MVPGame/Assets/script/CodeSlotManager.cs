@@ -31,6 +31,9 @@ public class CodeSlotManager : MonoBehaviour{
 
     //Check all slots filled correctly and print success
     public void CheckAllSlotsCorrect(){
+        //If isFilledCorrectly == true, then don't need to check if isFilled = true?
+        //Reset numFC to 0 slots checked, so don't carry over.
+        numFilledCorrectly = 0;
         foreach (Slot slot in slots)
         {
             //If one of the slots is filled incorrectly, then no point checking others
