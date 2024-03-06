@@ -1,3 +1,7 @@
+## Gantt Chart
+
+![gantt chart](https://github.com/NickTyphoon/SEM-Group-8/assets/100342481/001d5caf-165f-4d46-a3c0-d0b249ab5739)
+
 ## Planning Poker Decisions
 
 **1. Retrospective:**
@@ -37,6 +41,8 @@ Adam - 5, Nick - 3, Trijit - 3, Shreya - 5, Peter - 5, Rao - 3 \
 
 ## Retrospective
 *_What went wrong?_* 
+- Drag and drop code does not work
+  Solution: Copy the code in a different environment to determine the issue
 - Realised that we can’t add visual assets to MVP  
   Reason: Code is not put together yet \
   Solution: Moved to backlog for next sprint. Will push a project first and then combine code scripts from Rao and Shreya 
@@ -46,6 +52,6 @@ Adam - 5, Nick - 3, Trijit - 3, Shreya - 5, Peter - 5, Rao - 3 \
 
 *_What went right?_*   
 - Expanded MVP and personality type descriptions
-- Paired programming for drag and drop and start menu
+- Paired programming for start menu
 - Created character sprites
 - Documented planning through planning poker and Gantt chart
