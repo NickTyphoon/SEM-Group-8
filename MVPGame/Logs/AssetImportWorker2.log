@@ -249,3 +249,7 @@ Received Import Request.
 Start importing Assets/char_left_2_scaled_5x_pngcrushed.png using Guid(881b427f2b295448fbeb76fd1856aa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2531a4b42b497d925a89f2df19f99cb') in 0.007974 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

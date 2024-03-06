@@ -225,3 +225,111 @@ Received Import Request.
 Start importing Assets/coin_frame_4.png using Guid(9f799a143fecc49d3bae355ef0de7c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa2feb438df3f2df0c6408089cc4e8c') in 0.007801 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 149.022701 seconds.
+  path: Assets/snippet1.png
+  artifactKey: Guid(2b5f77ebfe7f9476c86ec91bf24d6ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/snippet1.png using Guid(2b5f77ebfe7f9476c86ec91bf24d6ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab37b05bdde115113ef4f2ef713e6ac') in 0.076408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/snippet3.png
+  artifactKey: Guid(047562249d81f4fcf86c1e3318c72976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/snippet3.png using Guid(047562249d81f4fcf86c1e3318c72976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e96945676e178d8fb7950d418cf78f4') in 0.008093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/snippet2.png
+  artifactKey: Guid(b261825d5e0444271818b6ae14b436c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/snippet2.png using Guid(b261825d5e0444271818b6ae14b436c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73488cfaae5358e85d98299329fa4c4c') in 0.005786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.724109 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/LightBandit_0.asset
+  artifactKey: Guid(125e114080761a74f8425b66562c77e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/LightBandit_0.asset using Guid(125e114080761a74f8425b66562c77e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a28a2ad8a8904849de869d9891b2f2') in 0.022217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Sprites.png
+  artifactKey: Guid(5fe5454ec8605de43809133b020d1b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Sprites.png using Guid(5fe5454ec8605de43809133b020d1b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee5f4e4dbf09fa91d882ee3ebcf4c25') in 0.181471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 91
+========================================================================
+Received Import Request.
+  Time since last request: 85.089445 seconds.
+  path: Assets/TextMesh Pro/UI/cancel.jpg
+  artifactKey: Guid(fe03f2f4cd69f7245b6ae6069bc61dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/UI/cancel.jpg using Guid(fe03f2f4cd69f7245b6ae6069bc61dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a921c495c8f0076f866d1b683a064ce1') in 0.045505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 71.752351 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png
+  artifactKey: Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png using Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c606e7398e2fd7e3861f5d580bafdd1') in 0.008055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png
+  artifactKey: Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/Square.png using Guid(311925a002f4447b3a28927169b83ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8a9c9a86b39628774b6726f92c7824') in 0.006217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png
+  artifactKey: Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/SquareWithBorder.png using Guid(db750325989564987a34393247d883b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b8ce7226d7c0af6d3d1e5ca3a3ea72') in 0.007000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Packages/com.unity.2d.spriteshape/Editor/Handles/ss_rightrange.png
+  artifactKey: Guid(ee5df01235032491c8b180741ea820fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.spriteshape/Editor/Handles/ss_rightrange.png using Guid(ee5df01235032491c8b180741ea820fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0889bdc51317deb588e3696c53598b77') in 0.006443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.711660 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png
+  artifactKey: Guid(71ebafeef3c03457483266a33ab2b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png using Guid(71ebafeef3c03457483266a33ab2b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4623d3be887a726b98abae4787829ee') in 0.020588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.IKCCD On.png
+  artifactKey: Guid(40ca859210cd04b62bbfe0e0d5696d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.IKCCD On.png using Guid(40ca859210cd04b62bbfe0e0d5696d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3319e76d8d4a2de619be5e1f5849b94b') in 0.009196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.IKCCD On@32.png
+  artifactKey: Guid(a9354548f1d8e4015830a88081482039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons/Animation.IKCCD On@32.png using Guid(a9354548f1d8e4015830a88081482039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0d14fab70afd12adc24ba60213856c') in 0.009519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

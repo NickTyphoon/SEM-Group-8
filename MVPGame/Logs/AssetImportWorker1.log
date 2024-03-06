@@ -249,3 +249,47 @@ Received Import Request.
 Start importing Assets/bliss_bg.png using Guid(0db95faad4e954b56aef3c56dbf5b12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56670d40b39b32f37a163123ccd0daf') in 0.011638 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 149.017251 seconds.
+  path: Assets/dragdropbg.png
+  artifactKey: Guid(8050209bc68f44ec8a3688a183236c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dragdropbg.png using Guid(8050209bc68f44ec8a3688a183236c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeecaf9a53d25bd058f91b5150b5d92') in 0.082599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/snippet4.png
+  artifactKey: Guid(eb0fd556f2ce44a47842f64f3b57347b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/snippet4.png using Guid(eb0fd556f2ce44a47842f64f3b57347b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db71e83d4a20f92395a6afe457d7ba96') in 0.007267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/snippetslot.png
+  artifactKey: Guid(d2de6a37e720e432b8fabb14a157ad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/snippetslot.png using Guid(d2de6a37e720e432b8fabb14a157ad6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3161504643d351efd38841c1f1755a') in 0.005910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.723142 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Background5.asset
+  artifactKey: Guid(1320de38bb0e7cf4fa7569ee572fa7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Background5.asset using Guid(1320de38bb0e7cf4fa7569ee572fa7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623adac3478d3e191eeaec69239eb552') in 0.086847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/2D Pixel Art Platformer Biome - American Forest/Tree5.asset
+  artifactKey: Guid(7e71d415a3fa0eb4092d927bc82dcacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Art Platformer Biome - American Forest/Tree5.asset using Guid(7e71d415a3fa0eb4092d927bc82dcacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031491aa5310298e2274a2923958e5a5') in 0.004026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
