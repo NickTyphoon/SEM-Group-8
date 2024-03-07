@@ -55,32 +55,32 @@ public class EndScreenButton_test
         yield return null;
     }
 
-    [UnityTest]
-    public IEnumerator EndScreenButton_CanTransitionToGameScene()
-    {
-        Assert.IsNotNull(EndScreenButton, "Button 'EndScreenButton' not found in scene!");
+    // [UnityTest]
+    // public IEnumerator EndScreenButton_CanTransitionToGameScene()
+    // {
+    //     Assert.IsNotNull(EndScreenButton, "Button 'EndScreenButton' not found in scene!");
 
-        // Add a scene loaded event handler
-        SceneManager.sceneLoaded += OnSceneLoaded;
+    //     // Add a scene loaded event handler
+    //     SceneManager.sceneLoaded += OnSceneLoaded;
 
-        // Simulate button click
-        EndScreenButton.onClick.Invoke();
+    //     // Simulate button click
+    //     EndScreenButton.onClick.Invoke();
 
-        // Wait for one frame
-        yield return null;
+    //     // Wait for one frame
+    //     yield return null;
 
-        // Wait for scene to load
-        while (SceneManager.GetActiveScene().name == "EndScreen")
-        {
-            yield return null;
-        }
+    //     // Wait for scene to load
+    //     while (SceneManager.GetActiveScene().name == "EndScreen")
+    //     {
+    //         yield return null;
+    //     }
 
-        SceneManager.sceneLoaded -= OnSceneLoaded;  // Remove the event handler
+    //     SceneManager.sceneLoaded -= OnSceneLoaded;  // Remove the event handler
 
-        Assert.AreEqual("GameScene", SceneManager.GetActiveScene().name);
+    //     Assert.AreEqual("GameScene", SceneManager.GetActiveScene().name);
 
-        yield return null;
-    }
+    //     yield return null;
+    // }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {

@@ -650,98 +650,6 @@ MonoBehaviour:
   isFilled: 0
   isFilledCorrectly: 0
   finalScore: 0
---- !u!1 &966817592
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 966817593}
-  - component: {fileID: 966817595}
-  - component: {fileID: 966817594}
-  - component: {fileID: 966817596}
-  m_Layer: 5
-  m_Name: ScoreText
-  m_TagString: ScoreText
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &966817593
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966817592}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.26461, y: 0.26461, z: 0.26461}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1012556988}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 269, y: -161.09}
-  m_SizeDelta: {x: 966.8518, y: 399.515}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &966817594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966817592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 80
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 267
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: you have x code snippets
---- !u!222 &966817595
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966817592}
-  m_CullTransparentMesh: 1
---- !u!114 &966817596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966817592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a198bae46d0e38a4bb6d8165c0a66aef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1012556987
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,7 +683,6 @@ RectTransform:
   m_Children:
   - {fileID: 1054897514}
   - {fileID: 1283444296}
-  - {fileID: 966817593}
   - {fileID: 963955369}
   - {fileID: 1471512528}
   - {fileID: 1448197786}
@@ -888,7 +795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 374, y: -182}
+  m_AnchoredPosition: {x: 376, y: -141.89}
   m_SizeDelta: {x: 1755.6484, y: 283.7819}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1054897515
@@ -924,7 +831,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You do not have all your code!
+  m_Text: Drag the code to unlock doubly jump
 --- !u!222 &1054897516
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1039,7 +946,7 @@ GameObject:
   - component: {fileID: 1283444300}
   m_Layer: 5
   m_Name: GameButton
-  m_TagString: Untagged
+  m_TagString: EndScreenButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

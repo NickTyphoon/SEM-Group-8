@@ -12,6 +12,7 @@ TagManager:
   - EndScreenButton
   - ScoreText
   - WinStateText
+  - GameButton
   layers:
   - Default
   - TransparentFX
