@@ -32,4 +32,38 @@ Peter tests
 Adam and Shreya 
 - Mock up 500 words group reflection 
 
+## What did each member do? 
+Nick
+- Led the final stages of development
+- Fixed playability issues (infinite jump, out of bounds)
+- Collection of test codes
+  
+Trijit
+- Cleaned up git
+- Cleaned up the project
+- Merged branches
+- Coded the code arrangement on the endscreen
+- Persistence on game screen
+  
+Adam
+- Replaced placeholder visuals in the MVP with custom assets and repositioned in accordance
+- Value Proposition Statement and SWOT Analysis
+- Reflection
+- Fixed jump physics
+- Rebuilt terrain
+  
+Shreya
+- Created the coin flip
+- Paired programming on drag drop test
+- Reflection
+  
+Junpeng
+- Tests for coin collection, score iteration and player movement
+- Gantt chart update
+  
+Rao
+- Paired programming on drag drop test
+- Game flowchart
+
+
 
