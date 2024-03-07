@@ -60,10 +60,24 @@ Shreya
 Junpeng
 - Tests for coin collection, score iteration and player movement
 - Gantt chart update
-  
+
 Rao
 - Paired programming on drag drop test
 - Game flowchart
+
+## Retrospective
+*What went wrong, and how to fix it*
+- Test for drag and drop failed, but was fixed with help from other members
+- The game got completed a lot closer to the deadline that we hoped, because we underestimated the amount of small tasks that would be required to finish the project. This knowledge will help us avoid this problem in future projects.
+- Technical difficulties meant things not being completed in time for the submission, so we should have completed the tasks as early as possible in the sprint to make sure we had enough time to account for these problems.
+  
+*What went right*
+- VPS, SWOT analysis and group reflection done
+- Many small fixes were made
+- Mob programming enabled us to finish all tests and put the game together on time
+
+  
+
 
 
 
