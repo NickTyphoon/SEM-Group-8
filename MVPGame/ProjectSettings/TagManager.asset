@@ -11,6 +11,7 @@ TagManager:
   - coin
   - EndScreenButton
   - ScoreText
+  - WinStateText
   layers:
   - Default
   - TransparentFX

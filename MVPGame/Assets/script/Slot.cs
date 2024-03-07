@@ -24,7 +24,7 @@ public class Slot : MonoBehaviour, IDropHandler{
 
     public int finalScore;
 
-
+    // public Text winStateText;
 
     public void OnDrop(PointerEventData eventData){
         
@@ -92,6 +92,18 @@ public class Slot : MonoBehaviour, IDropHandler{
         for (int i = 0; i < Mathf.Min(fragmentCount, codeFragments.Count); i++)
         {
             codeFragments[i].SetActive(true);
+        }
+
+        if (fragmentCount != 4){
+            Text winStateText = GameObject.Find("WinStateText").GetComponent<Text>();
+            if (winStateText != null)
+            {
+                if (fragmentCount > 4){
+                    fragmentCount = 4;
+                }
+                winStateText.text = string.Format("You do not have all the code!", fragmentCount);
+
+            }
         }
     }
 
