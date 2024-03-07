@@ -81,6 +81,13 @@ public class ButtonTest
     }
 
     [UnityTest]
+    public IEnumerator PlayButton_Exists()
+    {
+        Assert.IsNotNull(playButton, "Button 'PlayButton' not found in scene!");
+        yield return null;
+    }
+
+    [UnityTest]
     public IEnumerator PlayButtonClickTest()
     {
         Assert.IsNotNull(playButton, "Button 'Play' not found in scene!");
