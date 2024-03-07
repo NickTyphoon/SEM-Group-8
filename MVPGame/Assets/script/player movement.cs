@@ -4,55 +4,47 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-/// <summary>
-/// Handles player movement and interaction, including side-to-side movement, jumping, and coin collection.
-/// </summary>
 public class movement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
+    public float jumpCooldown = 1f;  // Set the cooldown time in seconds
 
-    private Rigidbody2D rb;
-    private int coinCount = 0;
-    private bool onGround;
+    public Rigidbody2D rb;
+    public int coinCount = 0;
+    public bool onGround;
+    private bool canJump = true;  // New variable to track if the player can jump
 
-    /// <summary>
-    /// Initializes the Rigidbody2D component and updates the score text on start.
-    /// </summary>
-    void Start()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         UpdateScoreText();
     }
-    
-    /// <summary>
-    /// Handles player input for left and right movement, as well as jumping.
-    /// </summary>
-    void Update()
-    {
-        // Left and Right Movement
-        float moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
 
-        // Jumping
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) && onGround)
+    private void Update()
+    {
+        float moveInput = Input.GetAxis("Horizontal");
+
+        // Apply clamping to restrict X-axis movement
+        float clampedX = Mathf.Clamp(transform.position.x + moveInput * moveSpeed * Time.deltaTime, -15f, 15f);
+        transform.position = new Vector3(clampedX, transform.position.y, transform.position.z);
+
+        // Check if the player is pressing the jump key, is on the ground, and can jump
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && onGround && canJump)
+        {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            StartCoroutine(JumpCooldown());  
+        }
     }
 
-    /// <summary>
-    /// Checks if the player is grounded by casting a ray downwards.
-    /// </summary>
-    void FixedUpdate()
+    // updated physics
+    private void FixedUpdate()
     {
-        // Check if the player is grounded
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.1f);
         onGround = (hit.collider != null);
     }
 
-    /// <summary>
-    /// Handles the player's interaction with coins, updates the score, and triggers a scene change when a certain number of coins is collected.
-    /// </summary>
-    /// <param name="collision">The collider with which the player interacts.</param>
+    // detects when a coin is collected
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "coin")
@@ -63,16 +55,30 @@ public class movement : MonoBehaviour
 
             if (coinCount == 10)
             {
+                PlayerPrefs.SetInt("FinalScore", 10);
                 SceneManager.LoadSceneAsync("EndScreen");
             }
         }
     }
 
-    /// <summary>
-    /// Updates the score text UI with the current coin count.
-    /// </summary>
-    void UpdateScoreText()
+    // updates score 
+    private void UpdateScoreText()
     {
         GameObject.Find("Number (1)").GetComponent<Text>().text = coinCount.ToString();
+    }
+
+    // adds the functionality to the end screen button
+    private void EndScreenButton()
+    {
+        PlayerPrefs.SetInt("FinalScore", coinCount);
+        SceneManager.LoadSceneAsync("EndScreen");
+    }
+
+    // stops the user being able to keep jumping off the top of the screen
+    private IEnumerator JumpCooldown()
+    {
+        canJump = false;  
+        yield return new WaitForSeconds(jumpCooldown);  
+        canJump = true;  
     }
 }

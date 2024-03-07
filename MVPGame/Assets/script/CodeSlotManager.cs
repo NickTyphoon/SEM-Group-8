@@ -2,12 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CodeSlotManager : MonoBehaviour{
     //List to store references to all code slots
     public List<Slot> slots = new List<Slot>();
     //To check all slots filled correctly, to check if code rearranging successful
     int numFilledCorrectly;
+
+    public Rigidbody2D rb;
+
+    // public Text winStateText;
 
     // Start is called before the first frame update
     void Start(){
@@ -31,6 +37,9 @@ public class CodeSlotManager : MonoBehaviour{
 
     //Check all slots filled correctly and print success
     public void CheckAllSlotsCorrect(){
+        //If isFilledCorrectly == true, then don't need to check if isFilled = true?
+        //Reset numFC to 0 slots checked, so don't carry over.
+        numFilledCorrectly = 0;
         foreach (Slot slot in slots)
         {
             //If one of the slots is filled incorrectly, then no point checking others
@@ -44,9 +53,19 @@ public class CodeSlotManager : MonoBehaviour{
                 Debug.Log("num filled correctly: " + numFilledCorrectly);
             }
         }
-        if (numFilledCorrectly == slots.Count)
+        if (numFilledCorrectly == 4)
         {
-            Debug.Log("Code snippets in right order, Success!");
+            Debug.Log("Code snippets in the right order, Success!");
+
+            rb = GetComponent<Rigidbody2D>();
+            GameObject.Find("WinStateText").GetComponent<Text>().text = "Code snippets in the right order, Success!";
+
+            // Text winStateText = GameObject.Find("WinStateText")?.GetComponent<Text>();
+            // if (winStateText != null)
+            // {
+            //     winStateText.text = "Code snippets in the right order, Success!";
+            // }
+
         }
     }
 }
