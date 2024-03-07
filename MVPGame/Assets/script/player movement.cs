@@ -33,16 +33,18 @@ public class movement : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && onGround && canJump)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-            StartCoroutine(JumpCooldown());  // Start the jump cooldown
+            StartCoroutine(JumpCooldown());  
         }
     }
 
+    // updated physics
     private void FixedUpdate()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.1f);
         onGround = (hit.collider != null);
     }
 
+    // detects when a coin is collected
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "coin")
@@ -59,21 +61,24 @@ public class movement : MonoBehaviour
         }
     }
 
+    // updates score 
     private void UpdateScoreText()
     {
         GameObject.Find("Number (1)").GetComponent<Text>().text = coinCount.ToString();
     }
 
+    // adds the functionality to the end screen button
     private void EndScreenButton()
     {
         PlayerPrefs.SetInt("FinalScore", coinCount);
         SceneManager.LoadSceneAsync("EndScreen");
     }
 
+    // stops the user being able to keep jumping off the top of the screen
     private IEnumerator JumpCooldown()
     {
-        canJump = false;  // Set the flag to false
-        yield return new WaitForSeconds(jumpCooldown);  // Wait for the cooldown duration
-        canJump = true;  // Set the flag to true after the cooldown
+        canJump = false;  
+        yield return new WaitForSeconds(jumpCooldown);  
+        canJump = true;  
     }
 }
