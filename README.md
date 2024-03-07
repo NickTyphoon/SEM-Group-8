@@ -1,8 +1,15 @@
-# SEM-Group-8 2024
+# SEM Group 8 2024
 
-Link to working Google document: https://docs.google.com/document/d/1FqxvGshvI8xaEuM2tKyJtSWxnhNM2SReF5ahSxHTDW0/edit?usp=sharing
+Links
 
-Link to Trello board: **************
+GitHub: https://github.com/NickTyphoon/SEM-Group-8 
+
+Network graph: https://github.com/NickTyphoon/SEM-Group-8/network 
+
+Trello: https://trello.com/invite/semgroup8/ATTI5442502a461c64f3671f816d75583541F1BE2CC6 
+
+Figma: https://www.figma.com/file/I1B8Ezkyn2dgQNNorzSyqp/SEM-Game-Assets?type=design&node-id=114%3A2538&mode=design&t=BOfYRHalxqOTVocG-1 
+
 
 | Name    | Email | Student ID |
 | -------- | ------- | ------- |
@@ -19,7 +26,7 @@ Trijit - Teamworker and Implementer; Technical Lead \
 Shreya - Shaper and Team Worker; Documentation \
 Nick - Coordinator and Shaper; Project Manager \
 Junpeng - Plant and Resource Investigator; Researcher \
-Rao - Coordinator and Shaper; Testing \
+Rao - Coordinator and Shaper; Testing 
 
 
 # Week 1
