@@ -63,7 +63,7 @@ public class Slot : MonoBehaviour, IDropHandler{
         parentObject = transform.parent.transform;
 
         // Update score text
-        GameObject.Find("ScoreText").GetComponent<Text>().text = "You have " + finalScore / 2 + " code snippets";
+        // GameObject.Find("ScoreText").GetComponent<Text>().text = "You have " + finalScore / 2 + " code snippets";
 
         int fragmentCount = finalScore / 2;
 
